@@ -4,7 +4,34 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Http Results</Title>
+    <Version>8.0.0</Version>
+    <Authors>Betül Aktoprak</Authors>
+    <Company>Aktoprak Tech</Company>
+    <Product>BA.Result</Product>
+    <Description>This is a HTTP Status Code Nuget package</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <IncludeSymbols>False</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/BetulAktoprak/BA.Result</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>status code</PackageTags>
+    <PackageReleaseNotes>This is a HTTP Status Code package</PackageReleaseNotes>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
