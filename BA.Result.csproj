@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Http Results</Title>
-    <Version>8.0.0</Version>
+    <Version>8.0.1</Version>
     <Authors>Betül Aktoprak</Authors>
     <Company>Aktoprak Tech</Company>
     <Product>BA.Result</Product>
